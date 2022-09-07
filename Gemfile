@@ -70,3 +70,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+group :production do
+  # Use pg as the database for Active Record
+  gem 'pg', '~> 1.3.3'
+end
